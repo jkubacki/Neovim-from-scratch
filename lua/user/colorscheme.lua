@@ -1,8 +1,8 @@
-vim.cmd [[
+vim.cmd([[
 try
-  colorscheme darkplus
+  colorscheme base16-tomorrow-night-eighties
 catch /^Vim\%((\a\+)\)\=:E185/
-  colorscheme default
+  colorscheme base16-tomorrow-night-eighties
   set background=dark
 endtry
-]]
+]])
